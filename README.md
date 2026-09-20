@@ -8,6 +8,7 @@ The node supports Qwen Image models, regional DashScope endpoints, custom worksp
 
 If this node is useful to you, consider supporting its development:
 
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor%20on%20GitHub-EA4AAA?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/GPleex)
 [![Support on Ko-fi](https://img.shields.io/badge/Support%20on%20Ko--fi-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/gpleex)
 
 ## Features
