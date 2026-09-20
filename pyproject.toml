@@ -1,0 +1,18 @@
+[project]
+name = "dashscope-image"
+version = "1.0.0"
+description = "ComfyUI custom node for image generation with Alibaba Cloud DashScope."
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[project.urls]
+Repository = "https://github.com/GPleex/ComfyUI-DashscopeImage"
+
+[tool.comfy]
+PublisherId = "gpleex"
+DisplayName = "DashScope Image Generation"
+requires-comfyui = ">=0.0.1"
