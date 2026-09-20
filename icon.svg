@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">DashScope Image</title>
+  <desc id="desc">Abstract image generation icon with a cyan frame, sunrise and orange sparkle.</desc>
+  <defs>
+    <linearGradient id="background" x1="40" y1="32" x2="360" y2="368" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102A43"/>
+      <stop offset="1" stop-color="#071521"/>
+    </linearGradient>
+    <linearGradient id="landscape" x1="82" y1="238" x2="318" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32D5D0"/>
+      <stop offset="1" stop-color="#168AAD"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#020B12" flood-opacity=".35"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" rx="88" fill="url(#background)"/>
+  <path d="M72 118V88h30M328 118V88h-30M72 282v30h30M328 282v30h-30" fill="none" stroke="#32D5D0" stroke-linecap="round" stroke-width="14"/>
+
+  <g filter="url(#shadow)">
+    <rect x="78" y="106" width="244" height="188" rx="30" fill="#F4FBFA"/>
+    <circle cx="259" cy="165" r="27" fill="#FFB454"/>
+    <path d="M94 259 157 193l43 47 28-31 78 81H94Z" fill="url(#landscape)"/>
+    <path d="m94 259 63-66 43 47 28-31" fill="none" stroke="#0D607D" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+  </g>
+
+  <path d="m311 53 8 22 22 8-22 8-8 22-8-22-22-8 22-8 8-22Z" fill="#FFB454"/>
+  <circle cx="87" cy="78" r="6" fill="#FFB454"/>
+</svg>
