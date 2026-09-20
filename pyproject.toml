@@ -1,6 +1,6 @@
 [project]
 name = "ComfyUI-DashscopeImage"
-version = "1.0.0"
+version = "1.0.1"
 description = "ComfyUI custom node for image generation with Alibaba Cloud DashScope."
 license = { file = "LICENSE" }
 requires-python = ">=3.9"
