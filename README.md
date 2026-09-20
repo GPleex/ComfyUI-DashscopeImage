@@ -4,6 +4,12 @@ Custom node for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) that genera
 
 The node supports Qwen Image models, regional DashScope endpoints, custom workspaces, deterministic seeds, and direct image output inside ComfyUI workflows.
 
+## Support
+
+If this node is useful to you, consider supporting its development:
+
+[![Support on Ko-fi](https://img.shields.io/badge/Support%20on%20Ko--fi-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/gpleex)
+
 ## Features
 
 - Generate images from text prompts with DashScope.
