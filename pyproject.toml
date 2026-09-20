@@ -1,5 +1,5 @@
 [project]
-name = "dashscope-image"
+name = "ComfyUI-DashscopeImage"
 version = "1.0.0"
 description = "ComfyUI custom node for image generation with Alibaba Cloud DashScope."
 license = { file = "LICENSE" }
