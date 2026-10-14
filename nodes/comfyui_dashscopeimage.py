@@ -14,7 +14,7 @@ class ComfyUIDashscopeImage:
             "required": {
                 "model": (
                     [
-                        "qwen-image-3.0","qwen-image-2.0-pro","qwen-image-2.1-pro", "z-image-turbo","wan2.6-t2i","wan2.7-image-pro","vidu/vidu-image_reference2image"
+                        "qwen-image-3.0","qwen-image-2.0-pro","qwen-image-2.1-pro", "z-image-turbo","wan2.6-t2i","wan2.7-image-pro","vidu/vidu-image_reference2image",
                     ],
                     {
                         "default": "qwen-image-3.0"
