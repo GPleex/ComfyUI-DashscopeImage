@@ -15,3 +15,4 @@ env/
 .vscode/
 
 *.zip
+.comfy-registry-publish.md

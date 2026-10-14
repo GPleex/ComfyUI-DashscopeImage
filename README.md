@@ -53,7 +53,7 @@ Add the **Dashscope Image Generation** node to your workflow and fill in:
 
 | Field | Description |
 | --- | --- |
-| `model` | DashScope image model to use. |
+| `model` | DashScope image model to use. Defaults to `qwen-image-3.0`. |
 | `region` | Region where the workspace and API key were created. |
 | `workspace_id` | DashScope workspace identifier, for example `ws-...`. |
 | `api_key` | API key created in the selected DashScope region. |
@@ -68,8 +68,13 @@ The API key and workspace must belong to the same region. Using a key from anoth
 
 The current node includes:
 
-- `qwen-image-max-2025-12-30`
+- `qwen-image-3.0`
 - `qwen-image-2.0-pro`
+- `qwen-image-2.1-pro`
+- `z-image-turbo`
+- `wan2.6-t2i`
+- `wan2.7-image-pro`
+- `vidu/vidu-image_reference2image`
 
 Model availability may depend on the selected region and workspace.
 
